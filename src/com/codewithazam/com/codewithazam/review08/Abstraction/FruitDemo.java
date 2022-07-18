@@ -25,6 +25,14 @@ public class FruitDemo {
             coco.crack();
         }
 
+        System.out.println("-----------------------------------------");
+        Orange orange = new Orange("Orange");
+        orange.peel();
 
+        Peelable p = new Apple("Green");
+        Peelable o = new Orange("OG");
+        // I can only call peel() method
+        p.peel();
+        o.peel();
     }
 }
