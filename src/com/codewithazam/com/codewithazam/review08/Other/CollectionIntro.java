@@ -34,6 +34,6 @@ public class CollectionIntro {
             System.out.println(element);
         }
 
-        
+
     }
 }
