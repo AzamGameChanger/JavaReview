@@ -1,4 +1,4 @@
-package com.codewithazam.com.codewithazam.review08.Abstraction;
+package com.codewithazam.com.codewithazam.review08.Interface;
 
 public interface Peelable {
     // Interfaces can not have constructor

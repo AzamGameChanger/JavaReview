@@ -1,4 +1,4 @@
-package com.codewithazam.com.codewithazam.review08.Abstraction;
+package com.codewithazam.com.codewithazam.review08.Interface;
 
 public class Fruit {
     String color;

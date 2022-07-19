@@ -1,4 +1,4 @@
-package com.codewithazam.com.codewithazam.review08.Abstraction;
+package com.codewithazam.com.codewithazam.review08.Interface;
 
 public class FruitDemo {
     public static void main(String[] args) {
@@ -34,5 +34,7 @@ public class FruitDemo {
         // I can only call peel() method
         p.peel();
         o.peel();
+
+
     }
 }
