@@ -33,5 +33,21 @@ public class World {
         world.add(africa);
         System.out.println(world);
 
+        System.out.println("World size is -> " + world.size());
+        Map<String, String> continent = world.get(1);
+        System.out.println("The object with index 1 is -> " + continent);
+
+        System.out.println("==================================================");
+        //Lets iterate the list
+        for (Map<String, String> el : world) {
+            // System.out.println(el);
+            // Let us iterate the map
+            Set<String> countries = el.keySet();
+            for (String country : countries) {
+                System.out.println(country + " -> " + el.get(country));
+            }
+            System.out.println("-----------");
+        }
+
     }
 }
